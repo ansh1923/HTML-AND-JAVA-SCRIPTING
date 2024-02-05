@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Event driven JavaScript program to accept number and validate if the given value is a number or not by clicking on the button</title>
+<script type="text/Javascript">
+function number()
+{
+var number,a;
+number=form1.t1.value;
+a=isNaN(number);
+document.write("Your number is:"+a)
+if(a>=0)
+alert("Your entered value is not a  number");
+else if(a<0)
+alert("Your entered value is not a number");
+else
+alert("Your entered value is a number");
+}
+</script>
+</head>
+<body>
+<form name="form1">
+Enter value:-
+<input type=text name=t1><br>
+<input type=button value=Submit onClick=number()>
+</form>
+</body>
+</html>

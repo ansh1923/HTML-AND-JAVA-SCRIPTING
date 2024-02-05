@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Event driven JavaScript programme to calculate addition and division of two numbers</title>
+<script type="text/Javascript">
+function add()
+{
+var a,b,c,d,e;
+a=form1.t1.value;
+b=form1.t2.value;
+c=parseInt(a);
+d=parseInt(b);
+e=c+d;
+document.write("Your addition is:"+e);
+}
+function div()
+{
+var a,b,c,d,f;
+a=form1.t1.value;
+b=form1.t2.value;
+c=parseInt(a);
+d=parseInt(b)
+f=c/d;
+document.write("Your division is:"+f);
+}
+</script>
+</head>
+<body>
+<form name=form1>
+1st no.:<input type=text name=t1><br>
+2nd no.:<input type=text name=t2><br>
+<input type=button value=Addition onClick="add()">
+<input type=button value=Division onClick="div()">
+</form>
+</body>
+</html>
+
+
+
+
